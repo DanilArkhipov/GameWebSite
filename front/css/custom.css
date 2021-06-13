@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "TTNorms-Meduim";
+    src: url(../fonts/TTNorms-Medium.otf);
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    margin: 0;
+    color: #0D1C2E;
+}
+body{
+    color:#707C97;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'TTNorms-Meduim';
+    background-color: #E6ECFE;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav{
+    background-color: #fff;
+}
+.nav__left-nav{
+    max-width: 290px;
+    height: 100vh;
+}
+.nav__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav__top{
+    margin-top: 87px;
+    width: 100%;
+}
+.avatar{
+    border-radius: 50%;
+}
+.nav__top-avatar{
+    display: block;
+    margin: 5px auto;
+    width: 86px;
+    height: 86px;
+    align-self: center;
+}
+.user-name{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.nav__top-user-name{
+    margin-top: 15px;
+    
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+    width: 100%;
+    flex-grow: 1;
+}
+.nav-list__item{
+    vertical-align: middle;
+}
+.nav-list__item-link{
+    display: block;
+    width: 100%;
+    padding: 8px 38px;
+}
+.nav-img{
+    margin:8px 0px;
+    vertical-align: middle;
+}
+.nav-list__item-text{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px 0px 10px 17px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.nav__bottom{
+    width: 100%;
+    margin-bottom: 51px;
+}
+.nav-list__item-btn{
+    width: 100%;
+    padding: 8px 38px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    color: inherit;
+    cursor: pointer;
+    vertical-align: middle;
+}
